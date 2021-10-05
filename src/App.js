@@ -1,6 +1,5 @@
 import React from "react";
 import IconButton from "@material-ui/core/IconButton";
-import InputLabel from "@material-ui/core/InputLabel";
 import Visibility from "@material-ui/icons/Visibility";
 import InputAdornment from "@material-ui/core/InputAdornment";
 import VisibilityOff from "@material-ui/icons/VisibilityOff";
@@ -31,9 +30,6 @@ const App = () => {
       }}
     >
       <h4>How to show and hide password in ReactJS?</h4>
-      <InputLabel htmlFor="standard-adornment-password">
-        Enter your Password
-      </InputLabel>
       <Input
         type={values.showPassword ? "text" : "password"}
         onChange={handlePasswordChange("password")}
